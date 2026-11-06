@@ -1,0 +1,13 @@
+DATA COMPRESSION IN EVERYDAY LIFE
+
+Every day we send hundreds of messages, save dozens of photos and download more documents than we can count. All of that data has to be stored somewhere and transferred over a network. Without data compression, hard drives would fill up quickly and the Internet would feel much slower than it does today.
+
+The basic idea behind compression is simple: find the parts of the data that are repeated or redundant, and represent them with fewer bits. In an English paragraph, some characters appear very often, such as the space, the letter "e" or the letter "t", while others such as "q", "z" or "x" are rare. If we give short codes to common characters and longer codes to rare ones, the total number of bits goes down noticeably.
+
+For text, compression must be lossless. Changing a single letter can change the meaning of a whole sentence, so after decompression the text must be exactly the same as the original, character by character.
+
+Compression is also used for images, audio and video. For those kinds of data, people sometimes accept losing a little information that the human eye or ear can hardly notice, in exchange for a much smaller file. For study notes, contracts or program source code, however, every detail matters and nothing may be changed.
+
+Learning about compression helps students understand how computers store information and also trains algorithmic thinking. Counting frequencies, building a binary tree, and measuring running time and memory are all small exercises in data structures and complexity analysis.
+
+Even though storage keeps getting cheaper and networks keep getting faster, the amount of data people create grows even faster. Data compression will therefore remain important for many years, from the phone in your pocket to huge data centers around the world.
