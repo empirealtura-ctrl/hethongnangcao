@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+
+# Files generated when running the program
+*.huf
+*_restored.txt
+data/large_vi.txt
